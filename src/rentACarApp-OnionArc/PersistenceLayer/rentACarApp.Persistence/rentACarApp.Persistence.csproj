@@ -16,4 +16,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\CoreLayer\DomainLayer\rentACarApp.Core.Domain\rentACarApp.Core.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
