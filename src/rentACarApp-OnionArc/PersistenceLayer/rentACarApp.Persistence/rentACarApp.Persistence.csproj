@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Orm\EfCore\Contexts\" />
+    <Folder Include="Orm\EfCore\FluentAPI\" />
+    <Folder Include="Orm\EfCore\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+  </ItemGroup>
+
 </Project>
